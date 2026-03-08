@@ -1,0 +1,13 @@
+{
+  "name": "aquarakshak-web",
+  "private": true,
+  "workspaces": [
+    "web",
+    "backend/functions"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace web run dev",
+    "build:web": "npm --workspace web run build",
+    "deploy:functions": "npm --workspace backend/functions run deploy"
+  }
+}
